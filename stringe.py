@@ -27,10 +27,14 @@ print("Secondo carattere:", testo[1]) # y
 print("Ultimo carattere:", testo[-1]) # n
 
 # Metodi utili delle stringhe:
-testo_minuscolo = messaggio.lower()  # Tutte minuscole
+# Cosa sono i metodi? Sono azioni che puoi fare su un oggetto (in questo caso una stringa).
+# Si usano con il punto: oggetto.metodo()
+# Pensa: la stringa è un oggetto che sa fare cose!
+
+testo_minuscolo = messaggio.lower()  # Azione: converti in minuscole - Tutte minuscole
 print("Minuscolo:", testo_minuscolo)
 
-testo_maiuscolo = messaggio.upper()  # Tutte maiuscole
+testo_maiuscolo = messaggio.upper()  # Azione: converti in maiuscole - Tutte maiuscole
 print("Maiuscolo:", testo_maiuscolo)
 
 # Trovare una parte dentro la stringa:
