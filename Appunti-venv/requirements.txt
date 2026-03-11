@@ -1,0 +1,9 @@
+# Di norma questi file vengono usati per elencare le dipendenze del progetto, ovvero le librerie esterne che il progetto utilizza.
+# In questo caso, le dipendenze sono state commentate di proposito per evitare che vengano installate automaticamente. 
+# Se si desidera installare queste dipendenze, basta inserire il nome della libreria e la versione desiderata (se necessario) rimuovendo il simbolo "#" all'inizio della riga.
+
+# Esempio:
+#requests==2.31.0
+#urllib3==2.0.7
+#colorama==0.4.6
+#beautifulsoup4==4.12.2
