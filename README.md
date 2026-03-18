@@ -1,48 +1,80 @@
-# 🐍 Appunti di Python per Principianti
+# 🐍 Appunti di Python per Principianti & CyberSecurity
 
-Benvenuto nel mio repository! 👋 
-Questa è una raccolta di appunti pratici e script eseguibili pensati per chi sta imparando a programmare in **Python partendo da zero**. 
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Progress: In Corso](https://img.shields.io/badge/Progress-In%20Corso-brightgreen.svg)](#)
 
-Invece della solita teoria noiosa, ogni file è un vero e proprio programma Python pieno di commenti chiari, esempi pratici e piccoli esperimenti interattivi.
+Benvenuto in questo repository! 👋
+Una raccolta di appunti pratici, script di rete e materiale teorico pensato per chi impara **Python** da zero con un occhio di riguardo alla **Cyber Security**.
 
-> 🌱 **Work in Progress:** Questo repository è in continuo aggiornamento! Sto aggiungendo nuovi appunti e file man mano che avanzo nel mio percorso di studio.
+## 🗺️ Indice di Navigazione Rapida
+
+- [📁 Struttura del Progetto](#-struttura-del-progetto)
+- [💻 Moduli Python (Basi)](#-moduli-python-basi)
+- [🛠️ Area Laboratorio (Sicurezza)](#%EF%B8%8F-area-laboratorio-sicurezza)
+- [📚 Slide & Teoria (PDF)](#-slide--teoria-pdf)
+- [🚀 Come Iniziare](#-come-iniziare)
 
 ## 📂 Struttura del Progetto
 
-Per rendere l'apprendimento più semplice, ho diviso gli appunti in cartelle numerate. Ecco come è organizzato il materiale:
+Ecco la mappa completa di tutto il materiale presente nel repository:
 
 ```text
 esp_py/
-├── 01_basi/                 # Concetti fondamentali per iniziare
-│   ├── 01_input_output.py   # Far parlare (print) e ascoltare (input) il programma
-│   ├── 02_variabili.py      # Le "scatole" di memoria e i tipi di dato
-│   └── 03_operatori.py      # Matematica, logica e confronti (+, ==, and/or)
-├── 02_strutture_dati/       # Gestire gruppi di informazioni
-│   ├── 01_stringhe.py       # Manipolare il testo e i suoi metodi (.upper, .split)
-│   ├── 02_liste.py          # Collezioni ordinate di elementi
-│   └── 03_dizionari.py      # La "rubrica": dati salvati con Chiave : Valore
-├── 03_controllo_flusso/     # La logica e le decisioni del codice
-│   ├── 01_condizioni.py     # Prendere decisioni con if, elif ed else
-│   └── 02_cicli.py          # Ripetere azioni con for e while
-└── 04_funzioni_e_moduli/    # Organizzazione del codice professionale
-    ├── m01_funzioni.py      # Creare "ricette" riutilizzabili con def e return
-    ├── m02_moduli_teoria.py # Dividere il progetto in più file
-    └── m03_moduli_pratica.py # Esempio pratico di importazione tra file
+├── 01_basi/                 # Fondamentali (I/O, Variabili, Operatori)
+├── 02_strutture_dati/       # Liste, Stringhe e Dizionari
+├── 03_controllo_flusso/     # If/Else e Cicli For/While
+├── 04_funzioni_e_moduli/    # Organizzazione del codice
+├── Appunti-venv/            # 🛠️ LABORATORIO: Script di Security & Network
+├── Slide/                   # 📚 TEORIA: Slide PDF del corso Epicode
+└── README.md                # 👈 Sei qui
 ```
 
-## 🚀 Come usare questi appunti
+## 💻 Moduli Python (Basi)
 
-Puoi semplicemente aprire i file e leggerli come se fossero un libro di testo, oppure (ancora meglio!) puoi eseguirli nel tuo terminale per vedere cosa succede.
 
-Assicurati di avere Python installato sul tuo sistema, poi apri il terminale, entra nella cartella dell'argomento che ti interessa e digita:
+| Modulo                 | Descrizione                                | Link Rapido                        |
+| :--------------------- | :----------------------------------------- | :--------------------------------- |
+| **01. Fondamentali**   | Input/Output, Variabili e Operatori        | [Apri 📂](./01_basi/)              |
+| **02. Dati**           | Stringhe, Liste e Dizionari                | [Apri 📂](./02_strutture_dati/)    |
+| **03. Flusso**         | Condizioni (`if`) e Cicli (`for`, `while`) | [Apri 📂](./03_controllo_flusso/)  |
+| **04. Organizzazione** | Funzioni e importazione Moduli             | [Apri 📂](./04_funzioni_e_moduli/) |
 
-```bash
-python 01_basi/01_input_output.py
-```
+## 🛠️ Area Laboratorio (Sicurezza)
 
-## 🎯 Obiettivo degli Appunti
-Tutti i file seguono una progressione didattica:
-1. **Esempi Semplici**: Per capire subito il concetto base.
-2. **Esempi Complessi**: Per vedere come si usa il comando in scenari reali.
-3. **Errori Comuni**: Per imparare a risolvere i problemi tipici dei principianti.
-4. **Riassunto Finale**: Per fissare i concetti chiave prima di passare oltre.
+In questa sezione si trovano gli script avanzati relativi al networking e alla sicurezza informatica.📍 **Percorso:** [`/Appunti-venv`](./Appunti-venv/)
+
+- **🔍 Network Scanner:** [scanner_draft.py](./Appunti-venv/scanner_draft.py) - Script per la scansione di rete.
+- **🚪 Backdoor:** [backdoor_draft.py](./Appunti-venv/backdoor_draft.py) - Bozza di implementazione backdoor.
+- **🌐 HTTP Analysis:** [verbi_http.py](./Appunti-venv/verbi_http.py) - Test sui verbi e metodi HTTP.
+- **⚙️ Requisiti:** Consulta il file [requirements.txt](./Appunti-venv/requirements.txt) per le librerie necessarie.
+
+## 📚 Slide & Teoria (PDF)
+
+Materiale didattico ufficiale diviso per unità di apprendimento.
+
+
+| Unità          | Argomenti Principali                        | Link                                |
+| :-------------- | :------------------------------------------ | :---------------------------------- |
+| **UNIT 1 - S1** | Intro Ethical Hacking & Fondamenti Network  | [Vedi Slide 📄](./Slide/UNIT-1/S1/) |
+| **UNIT 1 - S2** | Protocolli Network & Programmazione Python  | [Vedi Slide 📄](./Slide/UNIT-1/S2/) |
+| **UNIT 1 - S3** | Firewall, Sistemi Operativi & PenTest Intro | [Vedi Slide 📄](./Slide/UNIT-1/S3/) |
+| **UNIT 2**      | In arrivo...                                | [Vedi Cartella 📁](./Slide/UNIT-2/) |
+
+## 🚀 Come Iniziare
+
+1. **Clona il repo:**
+   ```bash
+   git clone https://github.com/tuo-username/esp_py.git
+   ```
+2. **Configura il Laboratorio (Opzionale):**
+   ```bash
+   cd Appunti-venv
+   pip install -r requirements.txt
+   ```
+3. **Esegui uno script:**
+   ```bash
+   python 01_basi/01_input_output.py
+   ```
+
+> 🌱 **Work in Progress:** Questo repository è in continuo aggiornamento man mano che avanzo nel mio percorso di studio!
