@@ -59,7 +59,7 @@ Materiale didattico ufficiale diviso per unità di apprendimento.
 | **UNIT 1 - S1** | Intro Ethical Hacking & Fondamenti Network  | [Vedi Slide 📄](./Slide/UNIT-1/S1/) |
 | **UNIT 1 - S2** | Protocolli Network & Programmazione Python  | [Vedi Slide 📄](./Slide/UNIT-1/S2/) |
 | **UNIT 1 - S3** | Firewall, Sistemi Operativi & PenTest Intro | [Vedi Slide 📄](./Slide/UNIT-1/S3/) |
-| **UNIT 2**      | In arrivo...                                | [Vedi Cartella 📁](./Slide/UNIT-2/) |
+| **UNIT 2 - S1** | OSINT & Rules of Engagement (RoE)           | [Vedi Slide 📄](./Slide/UNIT-2/S1-L1/) |
 
 ## 🚀 Come Iniziare
 
